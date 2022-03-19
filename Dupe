@@ -1,4 +1,4 @@
-local LocalNumber = 3209095872
+local LocalNumber = 9db6d62a-32eb-4429-9e39-9193dd189b30
 local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
 local mydiamonds = string.gsub(game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text, "%,", "")
 local mybanks = lib.Network.Invoke("get my banks")
